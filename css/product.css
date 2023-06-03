@@ -1,0 +1,88 @@
+.product-head {
+    display: flex;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.product-head img {
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+
+.product-head__content {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.product-head__info {
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.product-head__info p {
+    font-weight: bold;
+}
+
+.product-head__info span {
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.product-head__price {
+    border-top: 1px dashed rgb(48, 47, 47);
+    padding: 10px 0 20px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.product-head__price p {
+    color: rgba(253, 90, 8, 0.893);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.product-head__status {
+    border-top: 1px dashed rgb(48, 47, 47);
+    padding: 10px 0 10px 0;
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
+.product-head__btn {
+    display: flex;
+}
+.product-head__btn a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(104, 94, 94);
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.product-head__btn a:hover {
+    background-color: rgba(104, 94, 94, 0.8);
+}
+
+.product-body {
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px 18px;
+}
+
+.product-body h4 {
+    font-size: 20px;
+    padding: 10px 0 20px 0;
+}
