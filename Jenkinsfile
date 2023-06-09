@@ -3,7 +3,7 @@ pipeline {
     stages {
         stages('clone') {
             steps {
-                git 'https://github.com/gdnam/pipeline.git'
+                git 'https://github.com/gdnam/project9.git'
             }
         }
     }
