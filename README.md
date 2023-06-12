@@ -29,7 +29,7 @@
 ## Cấu hình Jenkins để tự động triển khai sau khi quá trình xây dựng thành công
 ### Bước 1: Sau khi đã tạo new repository trên github, thì bây giờ tôi sẽ sử dụng repository mới tạo để kết nối tới Visual Studio Code và sẽ tiến hành viết mã nguồn của trang web trong repository mới tạo 
 ### Bước 2: Sau khi đã viết mã nguồn của trang web xong thì tôi sẽ sử dụng các câu lệnh của Git để đẩy mã nguồn lên repository trên Github như là: 
-- Câu lệnh "git add ." được sử dụng để thêm tất cả các thay đổi trong thư mục làm việc hiện tại vào vùng staging của Git.
+- Câu lệnh "git add .": được sử dụng để thêm tất cả các thay đổi trong thư mục làm việc hiện tại vào vùng staging của Git.
 - Câu lệnh "git branch -m master": được sử dụng để đổi tên của một nhánh trong repository Git. Tôi sẽ sử dụng nhánh master để nó có thể tích hợp được trong dự án của jenkins bởi vì trong dự án của jenkins nó thuộc nhánh master 
 - Câu lệnh "git commit -m <message>": được sử dụng để tạo một commit mới trong repository Git.
 - Câu lệnh "git status": được sử dụng để kiểm tra trạng thái hiện tại của repository Git.
